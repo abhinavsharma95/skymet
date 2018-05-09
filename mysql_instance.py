@@ -20,4 +20,4 @@ commands.getstatusoutput("sed -i  's/my2.cnf/"+cnf+".cnf/g' /etc/init.d/"+ sql +
 #commands.getstatusoutput("sed -i  's/mysql2.sock/"+sql+".sock/g' /etc/init.d/"+ sql +" ")
 commands.getstatusoutput("/usr/bin/mysql_install_db --datadir=/lun/"+ loc +" --defaults-file=/etc/"+ cnf +".cnf --user=mysql ")
 commands.getstatusoutput("/etc/init.d/"+ sql +" start ")
-
+edited by Abhinav
